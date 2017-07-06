@@ -1,0 +1,10 @@
+application: myApp
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+# Accessing URL '/' on the site should show the public/index.html file
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
